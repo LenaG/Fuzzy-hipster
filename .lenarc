@@ -1,0 +1,3 @@
+
+alias somaselect='select station in "beatblender" "bootliquor" "christmas" "cliqhop" "covers" "digitalis" "doomed" "dronezone" "groovesalad" "illstreet" "indiepop" "lush" "missioncontrol" "poptron" "secretagent" "sonicuniverse" "spacestation" "suburbsofgoa" "tags" "xmasinfrisko" "brfm" "u80s" "sf1033" "sxfm" "dubstep" "480min" "xmasrocks"; do echo $station ; break; done; mplayer -really-quiet -vo none  http://somafm.com/startstream=${station}.pls'
+alias soma='while print; do somaselect; done' #a perpetual somaselec
